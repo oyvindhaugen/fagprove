@@ -49,14 +49,15 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
      - astp_BorrowBook
      - astp_DeliverBook
      - astp_ExtendBorrow 
-4. Lage apper visuelt etter layout plan
-5. Legge til planlagt kjernefunksjonalitet i appen, som f.eks mulighet for bibliotekar å legge til, redigere, og slette bøker, og mulighet for bruker å låne, utvide, og levere tilbake bøker.
-6. Finpusse og teste at all kjernefunksjonalitet er på plass.
-7. Vurdere ekstra funksjonalitet og eventuelt implementer det.
-8. Kjøre planlagt testing av app og lage test rapport.
-9. Skriv systemdokumentasjon med "handover" info for neste utvikler.
-10. Skriv brukerdokumentasjon om hvordan appen fungerer.
-11. Lage presentasjon og test presenter for andre lærlinger.
+4. Skrive SQL Templates
+5. Lage apper visuelt etter layout plan
+6. Legge til planlagt kjernefunksjonalitet i appen, som f.eks mulighet for bibliotekar å legge til, redigere, og slette bøker, og mulighet for bruker å låne, utvide, og levere tilbake bøker.
+7. Finpusse og teste at all kjernefunksjonalitet er på plass.
+8. Vurdere ekstra funksjonalitet og eventuelt implementer det.
+9. Kjøre planlagt testing av app og lage test rapport.
+10. Skriv systemdokumentasjon med "handover" info for neste utvikler.
+11. Skriv brukerdokumentasjon om hvordan appen fungerer.
+12. Lage presentasjon og test presenter for andre lærlinger.
 
 ## Skisse:
 
