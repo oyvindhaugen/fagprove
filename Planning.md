@@ -34,10 +34,6 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
        - ITrig: Standard sjekk på tilganger og at boken ikke er utlånt
        - UTrig: Standard sjekk på tilganger og at bruker har lånt boken
        - DTrig: Ingen sletting skal skje grunnet historikk
-     - BooksFiles
-       - ITrig: Standard sjekk på tilganger og at du er bibliotekar
-       - UTrig: Standard sjekk på tilganger og at du er bibliotekar
-       - DTrig: Standard sjekk på tilganger og at du er bibliotekar
      - BooksAuthors
        - ITrig: Standard sjekk på tilganger og at du er biliotekar
        - UTrig: Standard sjekk på tilganger og at du er biliotekar
@@ -47,7 +43,7 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
        - UTrig: Standard sjekk på tilganger og at du er bibliotekar
        - DTrig: Standard sjekk på tilganger og at du er bibliotekar
    - Views
-     - aviw_Books for å joine frem metadata, som f.eks forfatter og eventuelle filer som medhører.
+     - aviw_Books for å joine frem metadata, som f.eks forfatter.
      - aviw_BooksRentals for å joine frem metadata, som f.eks den som låner og hvilken bok det er.
    - Procedures
      - astp_BorrowBook
@@ -67,21 +63,20 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
 ### Data model:
 ![Data model](images/Planning/datamodel.png)
 
-- Universal Columns: Standard kolonner som kommer i alle Omega365 CTP tabeller.
-- Persons: en system tabell som kommer ferdig definert i et Omega365 instans, har en rad per bruker i systemet og lagrer diverse metadata som navn, epost etc.
-- OrgUnits: en system tabell som kommer ferdig definert i et Omega365 instans, hjelper med tilgangsfordeling ved bruk av trestruktur.
-- Authors: denne tabellen oppbevarer alle forfattere som finnes i systemet.
-- Books: denne tabellen oppbevarer alle bøkene som finnes i systemet med diverse metadata.
-- BooksRentals: denne tabellen er en historikk tabell som oppbevarer alle lån, med Foreign Key til Persons og Books.
-- BooksAuthors: denne tabellen linker sammen Books og Authors slik at en bok kan ha flere forfattere.
-- BooksFiles: her oppbevares bildet som tilhører boka, tanken er en 1:1 relasjon slik at hver bok bare har ett bilde.
+- **Universal Columns**: Standard kolonner som kommer i alle Omega365 CTP tabeller.
+- **Persons**: en system tabell som kommer ferdig definert i et Omega365 instans, har en rad per bruker i systemet og lagrer diverse metadata som navn, epost etc.
+- **OrgUnits**: en system tabell som kommer ferdig definert i et Omega365 instans, hjelper med tilgangsfordeling ved bruk av trestruktur.
+- **Authors**: denne tabellen oppbevarer alle forfattere som finnes i systemet.
+- **Books**: denne tabellen oppbevarer alle bøkene som finnes i systemet med diverse metadata.
+- **BooksRentals**: denne tabellen er en historikk tabell som oppbevarer alle lån, med Foreign Key til Persons og Books.
+- **BooksAuthors**: denne tabellen linker sammen Books og Authors slik at en bok kan ha flere forfattere.
 
 ### Grov skisse:
 ![Grov skisse](images/Planning/Book%20Rental%20System.png)
 
 - bildet på bunn venstre er admin skjermbildet for bibliotekarer som lar deg legge til, redigere, og slette bøker.
 - bildet til høyre for admin bildet er bildet som en vanlig bruker vil bruke der de kan søke opp bøker og låne dem. Her vises status på boken.
-- Bildet på topp er skjermbildet som viser brukeren sine lånte bøker, med mulighet for å utvide lånet eller levere inn.
+- bildet på topp er skjermbildet som viser brukeren sine lånte bøker, med mulighet for å utvide lånet eller levere inn.
 ## Tidsskjema
 
 <details open>
@@ -169,10 +164,10 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
 
 ## Kostnader:
 - Timerate lærling: 155,-
-  - Estimert total pris lærling: 6 arbeidsdager * 7.5 timer * 155 = 8137.50,-
+  - Estimert total pris lærling: 6 arbeidsdager * 7.5 timer * 155 = 6 975,-
 - Basic Omega 365 Instans per måned:
-  - Hosting: 8000,-
-  - Lisens: 25000,-
+  - Hosting: 8 000,-
+  - Lisens: 25 000,-
   - Kost per bruker: 380,-
 - Estimert total pris: 39 975,- + 380 * antall brukere
 
