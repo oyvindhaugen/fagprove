@@ -1,6 +1,6 @@
 <details open>
 <summary>Tirsdag <sub>25/03</sub></summary>
-tekst
+I dag har jeg planlagt datamodell og app layout. Jeg har skrevet plandokumentet og levert det inn. I tillegg har jeg lagt mesteparten av SQL Objektene og skrevet SQL Templates.
 </details>
 <details open>
 <summary>Onsdag <sub>26/03</sub></summary>
