@@ -4,7 +4,7 @@ I dag har jeg planlagt datamodell og app layout. Jeg har skrevet plandokumentet 
 </details>
 <details open>
 <summary>Onsdag <sub>26/03</sub></summary>
-tekst
+I dag har jeg grovt lagt det meste av kjernefunksjonaliteten i alle tre appene. Et avvik fra planen skjedde i dag, der jeg endte opp med å måtte lage en modal for å legge til forfattere siden en skal kunne ha flere forfattere på en bok.  
 </details>
 <details open>
 <summary>Torsdag <sub>27/03</sub></summary>
