@@ -13,7 +13,7 @@ Jeg fikk endringen fra fagprøvenemnden, som var "ingen endring", så da har jeg
 </details>
 <details open>
 <summary>Fredag <sub>28/03</sub></summary>
-tekst
+I dag har drevet med mye finpussing rundtom i appene og fått flere til å teste funksjonalitet. Eksempel på ting jeg har fikset er bl.a. i Search And Borrow er det lagt til Read More funksjonalitet, og har ordnet noe feil null handling. Utenom det har jeg implementert litt ekstra i de dynamiske modalene for å kunne ha custom kolonner slik at f.eks farge kan bli rendret i Add/Manage Tag(s). Har lagt til litt div ikoner rundtom for å gjøre appene litt lettere å forstå. Backend har jeg begynt på reservasjons system og har akkurat skrevet ferdig alt av procedures jeg tror jeg kommer til å trenge, så dette har jo ført til enda en ny tabell; atbl_Library_BooksReservations, som da skal støtte et købasert system for å reservere, med unique constraint på Book_ID - ReserveredBy_ID slik at du ikke reserverer flere ganger på deg selv på en bok, har ikke implementert noe i frontend her enda.
 </details>
 <details open>
 <summary>Lørdag <sub>29/03</sub></summary>
