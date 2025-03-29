@@ -17,7 +17,7 @@ I dag har drevet med mye finpussing rundtom i appene og fått flere til å teste
 </details>
 <details open>
 <summary>Lørdag <sub>29/03</sub></summary>
-tekst
+I dag har jeg ferdigstillet reserveringssystemet. I dette ligger all visning i frontend som de forskjellige statusene (om du har reservert, om den er reservert etc.). Utover det har jeg lagt til reserverte bøker i My Borrowed Books, med mulighet til å kansellere reservasjonen ved bruk av en ny procedure som heter CancelReservation. Utover forskjellige tester så virker det som forventet med køsystemet.
 </details>
 <details open>
 <summary>Søndag <sub>30/03</sub></summary>
