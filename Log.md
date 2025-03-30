@@ -21,7 +21,7 @@ I dag har jeg ferdigstillet reserveringssystemet. I dette ligger all visning i f
 </details>
 <details open>
 <summary>Søndag <sub>30/03</sub></summary>
-tekst
+I dag har jeg startet på API integrasjonen til ISBNdb, for å kunne importere bøker basert på ISBN. Har måttet starte en "7 day free trial", men utover det så er det 15$ i måneden. For det meste gikk det fint hele veien, litt CORS problemer, men de løste jeg for det meste. Om jeg hadde skrevet dette backend hadde jo ikke dette vært et problem, men siden alt dette gjørs via JavaScript så må CORS bli tatt hensyn til. Har klart å få til import av metadata som tittel, beskrivelse etc. Cover trodde jeg skulle gå, men viser seg at endepunktet til ISBNdb ikke støtter CORS på endepunktet som returner bildene, så har måttet sløyfet det. Tror det meste av funksjonalitet er ferdig nå, så planen er å finpusse og dokumentere systemet i morgen.
 </details>
 <details open>
 <summary>Mandag <sub>31/03</sub></summary>
