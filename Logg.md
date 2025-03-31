@@ -25,7 +25,7 @@ I dag har jeg startet på API integrasjonen til ISBNdb, for å kunne importere b
 </details>
 <details open>
 <summary>Mandag <sub>31/03</sub></summary>
-tekst
+I dag har jeg ferdigstillt appene med litt småforbedringer på designet. Jeg har også ryddet en del i koden for at den skal være med konsistente. Utover det har jeg skrevet første utkast av dokumentasjonen som har tatt mesteparten av dagen.
 </details>
 <details open>
 <summary>Tirsdag <sub>01/04</sub></summary>
