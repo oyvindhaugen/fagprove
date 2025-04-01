@@ -74,7 +74,7 @@
     <summary>
         Hvordan lage en ny bok?
     </summary>
-    <p>Når du står i appen ser du en tabell på venstresiden. På bunn av denne tabellen er det en rad med en oransj prikk helt til venstre, her kan du trykke inn i "Name" kolonnen for å gi en tittel. Når du er fornøyd med tittelen din trykker du vekk fra raden, så lagres den.</p>
+    <p>Når du står i appen ser du en tabell på venstresiden. På bunn av denne tabellen er det en rad med en oransje prikk helt til venstre, her kan du trykke inn i "Name" kolonnen for å gi en tittel. Når du er fornøyd med tittelen din trykker du vekk fra raden, så lagres den.</p>
     <img src="./images/BrukerDokumentasjon/hownewbook.png" alt="Hvordan lage en ny bok">
 </details>
 <details>
@@ -98,7 +98,7 @@
     <p>Når du står i appen og står på en rad i tabellen, så kommer infoen om boka opp på høyeside i en detaljevisning. Her kan du se et felt som heter "Authors". Om du trykker på dette feltet kommer det opp en dialog der du kan legge til forfattere.</p>
     <img src="./images/BrukerDokumentasjon/howtoeditauthor_1.png" alt="Hvordan legge til/endre forfatter">
     <img src="./images/BrukerDokumentasjon/howtoeditauthor_2.png" alt="Hvordan legge til/endre forfatter">
-    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende forfattere, men om du ønsker en ny forfatter trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på forfatteren du ønsker å legge til. Når du da har godtjent den kommer den opp i tabellen. Når du er ferdig å legge til forfattere trykker du bare ut av dialogen, så lagres det.</p>
+    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende forfattere, men om du ønsker en ny forfatter trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på forfatteren du ønsker å legge til. Når du da har godkjent den kommer den opp i tabellen. Når du er ferdig å legge til forfattere trykker du bare ut av dialogen, så lagres det.</p>
 </details>
 <details>
     <summary>
@@ -107,7 +107,7 @@
     <p>Når du står i appen og står på en rad i tabellen, så kommer infoen om boka opp på høyeside i en detaljevisning. Her kan du se et felt som heter "Genres". Om du trykker på dette feltet kommer det opp en dialog der du kan legge til sjangere.</p>
     <img src="./images/BrukerDokumentasjon/howtoeditgenre_1.png" alt="Hvordan legge til/endre sjanger">
     <img src="./images/BrukerDokumentasjon/howtoeditgenre_2.png" alt="Hvordan legge til/endre sjanger">
-    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende sjangere, men om du ønsker en ny sjanger trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på sjangeren du ønsker å legge til. Når du da har godtjent den kommer den opp i tabellen. Når du er ferdig å legge til sjangere trykker du bare ut av dialogen, så lagres det.</p>
+    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende sjangere, men om du ønsker en ny sjanger trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på sjangeren du ønsker å legge til. Når du da har godkjent den kommer den opp i tabellen. Når du er ferdig å legge til sjangere trykker du bare ut av dialogen, så lagres det.</p>
 </details>
 <details>
     <summary>
@@ -116,7 +116,7 @@
     <p>Når du står i appen og står på en rad i tabellen, så kommer infoen om boka opp på høyeside i en detaljevisning. Her kan du se et felt som heter "Tags". Om du trykker på dette feltet kommer det opp en dialog der du kan legge til tags.</p>
     <img src="./images/BrukerDokumentasjon/howtoedittags_1.png" alt="Hvordan legge til/endre tags">
     <img src="./images/BrukerDokumentasjon/howtoedittags_2.png" alt="Hvordan legge til/endre tags">
-    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende tags, men om du ønsker en ny tag trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på taggen du ønsker å legge til. Når du da har godtjent den kommer den opp i tabellen. Når du er ferdig å legge til tags trykker du bare ut av dialogen, så lagres det.</p>
+    <p>Om du trykker inn i den nye raden her får du en nedtrekksmeny med eksisterende tags, men om du ønsker en ny tag trykker du på det lille pluss tegnet helt til høyre i cellen, så kommer en liten tekstboks opp der du skriver navnet på taggen du ønsker å legge til. Når du da har godkjent den kommer den opp i tabellen. Når du er ferdig å legge til tags trykker du bare ut av dialogen, så lagres det.</p>
 </details>
 <details>
     <summary>
@@ -129,14 +129,14 @@
     <summary>
         Hvordan se slettede bøker?
     </summary>
-    <p>Når du står i appen og ser oppforbi tabellen ser du en knapp som heter "Show Deleted". Om du trykker på denne kommer det opp de bøkene som er registrert som slettet.</p>
+    <p>Når du står i appen og ser over tabellen ser du en knapp som heter "Show Deleted". Om du trykker på denne kommer det opp de bøkene som er registrert som slettet.</p>
     <img src="./images/BrukerDokumentasjon/howtoseedeleted.png" alt="Hvordan se slettede">
 </details>
 <details>
     <summary>
         Hvordan administrere forfattere?
     </summary>
-    <p>Når du står i appen og ser oppforbi tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Authors". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre forfattere. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
+    <p>Når du står i appen og ser over tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Authors". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre forfattere. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
     <img src="./images/BrukerDokumentasjon/howtomanageauthors_1.png" alt="Hvordan administrere forfattere">
     <img src="./images/BrukerDokumentasjon/howtomanageauthors_2.png" alt="Hvordan administrere forfattere">
 </details>
@@ -144,7 +144,7 @@
     <summary>
         Hvordan administrere sjangere?
     </summary>
-    <p>Når du står i appen og ser oppforbi tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Genres". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre sjangere. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
+    <p>Når du står i appen og ser over tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Genres". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre sjangere. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
     <img src="./images/BrukerDokumentasjon/howtomanagegenre_1.png" alt="Hvordan administrere sjangere">
     <img src="./images/BrukerDokumentasjon/howtomanagegenre_2.png" alt="Hvordan administrere sjangere">
 </details>
@@ -152,7 +152,7 @@
     <summary>
         Hvordan administrere tags?
     </summary>
-    <p>Når du står i appen og ser oppforbi tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Tags". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre tags. Her kan du også velge farge som vises i Library Search And Borrow på taggen. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
+    <p>Når du står i appen og ser over tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Manage Tags". Om du trykker på denne kommer det opp en dialog der du kan legge til, slette, eller endre tags. Her kan du også velge farge som vises i Library Search And Borrow på taggen. Når du er ferdig så bare trykker du ut av dialogen, så lagres det</p>
     <img src="./images/BrukerDokumentasjon/howtomanagetags_1.png" alt="Hvordan administrere tags">
     <img src="./images/BrukerDokumentasjon/howtomanagetags_2.png" alt="Hvordan administrere tags">
 </details>
@@ -160,7 +160,7 @@
     <summary>
         Hvordan importere ved bruk av ISBN?
     </summary>
-    <p>Når du står i appen og ser oppforbi tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Import from ISBN". Om du trykker på denne kommer det opp en dialog der du får et felt der du legger inn ISBN på boken. Denne står gjerne over strekkoden på boken. Når du har skrevet denne inn trykker du på "Import ISBN", så laster den inn all dataen for boken. Når den er lastet inn kan du velge å justere på tittel, publiserings dato, språk, og beskrivelse. Før du trykker deg videre må du laste ned bildet som vises, siden importen støtter ikke bildet automatisk, så dette må lastes opp etterpå. Når du har gjort dette kan du trykke på "Import" så lagres det.</p>
+    <p>Når du står i appen og ser over tabellen ser du en nedtrekksmeny som heter "Common Tasks". I denne menyen ser du et par forskjellige knapper, blant annet en som heter "Import from ISBN". Om du trykker på denne kommer det opp en dialog der du får et felt der du legger inn ISBN på boken. Denne står gjerne over strekkoden på boken. Når du har skrevet denne inn trykker du på "Import ISBN", så laster den inn all dataen for boken. Når den er lastet inn kan du velge å justere på tittel, publiserings dato, språk, og beskrivelse. Før du trykker deg videre må du laste ned bildet som vises, siden importen støtter ikke bildet automatisk, så dette må lastes opp etterpå. Når du har gjort dette kan du trykke på "Import" så lagres det.</p>
     <img src="./images/BrukerDokumentasjon/howtoimportisbn_1.png" alt="Hvordan importere via ISBN">
     <img src="./images/BrukerDokumentasjon/howtoimportisbn_2.png" alt="Hvordan importere via ISBN">
     <img src="./images/BrukerDokumentasjon/howtoimportisbn_3.png" alt="Hvordan importere via ISBN">
