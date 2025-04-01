@@ -27,7 +27,7 @@
     <summary>
         Hvordan reservere en bok?
     </summary>
-    <p>Når du står i appen og ser en har "Available from dd/MM/yyyy" som status, så kan du se at det er en knapp som det står "Reserve" på. Om du klikker på denne får du opp en godkjenning om at du ønsker å reservere denne boken.</p>
+    <p>Når du står i appen og ser den har "Available from dd/MM/yyyy" som status, så kan du se at det er en knapp som det står "Reserve" på. Om du klikker på denne får du opp en godkjenning om at du ønsker å reservere denne boken.</p>
     <img src="./images/BrukerDokumentasjon/howtoborrow.png" alt="Hvordan reservere en bok">
     <p>Når du da har trykket på "Reserve" kommer det opp en melding om hvilken plass du har i køen.</p>
 </details>
