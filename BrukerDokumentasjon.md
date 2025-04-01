@@ -19,7 +19,7 @@
     <summary>
         Hvordan låne en bok?
     </summary>
-    <p>Når du står i appen så kan du se på hver av bøkene at det er en knapp der det står "Borrow". Om du trykker på denne kommer det opp en dialog med all infoen, et dato felt der du kan legge inn hvor lenge du ønsker å låne (om du ikke fyller inn er det 7 dager), og en knapp som du trykker på for å godtjene dette.</p>
+    <p>Når du står i appen så kan du se på hver av bøkene at det er en knapp der det står "Borrow". Om du trykker på denne kommer det opp en dialog med all infoen, et dato felt der du kan legge inn hvor lenge du ønsker å låne (om du ikke fyller inn er det 7 dager), og en knapp som du trykker på for å godkjenne dette.</p>
     <img src="./images/BrukerDokumentasjon/howtoborrow.png" alt="Hvordan låne en bok">
     <p>Når du da trykker på "Borrow" lukker dialogen seg og du får en melding om når du må huske å levere den innen.</p>
 </details>
@@ -27,7 +27,7 @@
     <summary>
         Hvordan reservere en bok?
     </summary>
-    <p>Når du står i appen og ser en har "Available from dd/MM/yyyy" som status, så kan du se at det er en knapp som det står "Reserve" på. Om du klikker på denne får du opp en godtjenning om at du ønsker å reservere denne boken.</p>
+    <p>Når du står i appen og ser en har "Available from dd/MM/yyyy" som status, så kan du se at det er en knapp som det står "Reserve" på. Om du klikker på denne får du opp en godkjenning om at du ønsker å reservere denne boken.</p>
     <img src="./images/BrukerDokumentasjon/howtoborrow.png" alt="Hvordan reservere en bok">
     <p>Når du da har trykket på "Reserve" kommer det opp en melding om hvilken plass du har i køen.</p>
 </details>
@@ -37,14 +37,14 @@
     <summary>
         Hvordan levere en bok?
     </summary>
-    <p>Når du står i appen så kan du se en tabell med mange kolonner, helt til høyre i denne tabellen er det en kolonne som heter "Deliver Borrow". I denne kolonnen er det en knapp du kan trykke på. Når du har trykket på denne kommer det opp en godtjenning for at du ønsker å levere denne boken. </p>
+    <p>Når du står i appen så kan du se en tabell med mange kolonner, helt til høyre i denne tabellen er det en kolonne som heter "Deliver Borrow". I denne kolonnen er det en knapp du kan trykke på. Når du har trykket på denne kommer det opp en godkjenning for at du ønsker å levere denne boken. </p>
     <img src="./images/BrukerDokumentasjon/howtodeliver.png" alt="Hvordan levere en bok">
 </details>
 <details>
     <summary>
         Hvordan utvide lånet på en bok?
     </summary>
-    <p>Når du står i appen så kan du se vedsiden av "Deliver Borrow" kolonnen, en kolonne som heter "Extend Borrow". I denne kolonnen er det en knapp du kan trykke på som gir en godtjenning om at du ønsker å utvide lånet med 7 dager.</p>
+    <p>Når du står i appen så kan du se vedsiden av "Deliver Borrow" kolonnen, en kolonne som heter "Extend Borrow". I denne kolonnen er det en knapp du kan trykke på som gir en godkjenning om at du ønsker å utvide lånet med 7 dager.</p>
     <img src="./images/BrukerDokumentasjon/howtoextend.png" alt="Hvordan utvide lånet på en bok">
 </details>
 <details>
@@ -58,7 +58,7 @@
     <summary>
         Hvordan kansellere reservasjonen på en bok?
     </summary>
-    <p>Når du står i appen og har krysset av for "Show Reserved", så kan du se en kolonne helt til høyre som heter "Cancel Reservation". Om du da trykker på denne får du opp en godtjenning på om du ønsker å kansellere.</p>
+    <p>Når du står i appen og har krysset av for "Show Reserved", så kan du se en kolonne helt til høyre som heter "Cancel Reservation". Om du da trykker på denne får du opp en godkjenning på om du ønsker å kansellere.</p>
     <img src="./images/BrukerDokumentasjon/howtocancel.png" alt="Hvordan kansellere reservasjon">
 </details>
 <details>

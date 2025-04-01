@@ -1,6 +1,6 @@
 # System Dokumentasjon
 
-Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skole biblioteksystem. Her dekkes hvilke teknologier som blir brukt, hvordan datamodellen ser ut, hvordan sikkerheten fungerer, hvordan frontenden fungerer, hvilke problemstillinger som ble møtt må, planen videre, og hvilke avvik jeg gjorde fra den originale planen.
+Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skolebiblioteksystem. Her dekkes hvilke teknologier som blir brukt, hvordan datamodellen ser ut, hvordan sikkerheten fungerer, hvordan frontenden fungerer, hvilke problemstillinger som ble møtt må, planen videre, og hvilke avvik jeg gjorde fra den originale planen.
 
 ## Innhold
 - Oppsummering applikasjon
@@ -16,7 +16,7 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skol
 <summary>
     Oppsummering applikasjon
 </summary>
-<p></p>
+<p>Oppgaven denne applikasjonen skal utføre er å være et fungerende skolebiblioteksystem der lærere/elever har tilgang til å låne, levere, utvide lån, og se status på bøker. Bibliotekarer skal kunne legge til, slette, og endre på eksisterende bøker.</p>
 </details>
 <details>
     <summary>
@@ -88,6 +88,7 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skol
   <p>Sikkerheten i views er egentlig ganske enkel siden den sjekker bare om du lesetilgang på tabellen. For økt sikkerhet har brukere aldri direkte tilgang til tabeller. I stedet brukes views, ofte via en atbv som er automatisk generert for alle nye tabeller. "atbv" står for Application Table View og brukes for å kontrollere hva en bruker kan se.</p>
   <p>Sikkerheten i triggere er litt mer avansert, siden her må det sjekkes på om du har redigering/slette tilganger. På tabellene som relaterer til Books sjekker den at boken eksisterer og at du har tilganger til redigering og sletting på tabellen, men i Books tabellen skal det ikke skje noe sletting, siden da ville det ikke gått å oppbevare historikken for BooksRentals, så her kan det bli gjort en Soft Delete som bare setter et DateTime2 felt og filtreres vekk. Dette er sikkerheten de fleste prosedyrene henger seg på. </p>
   <p>All sikkerheten her ble skrevet med bruk av noe som heter SQL Templates, som gjør at du kan skrive en "template" og alle tabeller som oppfyller kravene får da den templaten i den autogenererte seksjonen. Dette sparer en del tid spesielt om du plutselig skal lage et par nye tabeller, eller vil gjøre endringer for mer enn en trigger/view</p>
+  <img src="./images/SystemDokumentasjon/sql_template.png" alt="Autogenerert seksjon SQL Trigger">
   <p>For biblioteksystemet har jeg satt opp to roller; Library Admin og Library User. Bibliotekarer får tildelt Admin rollen, og denne gir de redigeringstilgang på de fleste tabellene slik at de kan legge til, redigere, og "slette" bøker. Lærere/elever vil få tildelt Library User rollen, som da bare gir lesetilganger til de fleste tabellene utenom BooksRentals og BooksReservations der de har redigeringstilganger for å kunne låne, levere, og reservere.</p>
 </details>
 <details>
@@ -98,9 +99,12 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skol
         Denne løsningen består av 3 skjermbilder; Library Administration, Library Search And Borrow, og My Borrowed Books.
     </p>
     <ul>
+        <img src="./images/SystemDokumentasjon/admin.png" alt="Library Administration App">
         <!--legg til bilder av hver app før/etter punktene-->
-        <li>Library Administration - denne appen er der bibliotekarer kan legge inn nye bøker, redigere eksisterende bøker, eller "slette" bøker med bruk av soft delete. I denne appen er det også mulighet for å administrere alle eksisterende Tags, Genres, og Authors med modalene som ligger under Common Tasks. Her under Common Tasks finner du også "Import from ISBN" som er en modal som lar deg importere en bok fra APIet til ISBNdb ved å taste inn en ISBN. Denne integrasjonen fungerer for metadata som tittel, beskrivelse og forfatter, men ikke for cover bilde. Dette vises i modalen og der er det en hjelpetekst som forteller at bildet må lagres lokalt og lastes opp for å kunne vises. Dette begrensingen kommer pga. at integrasjonen er skrevet i frontend. Siden det er gjort slik så har nettleseren en innebydt sikkerhetsfunksjon som heter CORS(Cross-Origin Resource-Sharing) som sender "dummy" forespørsler av typen OPTIONS før de faktiske forespørselene av type GET. Endepunktet der bildene er lagret hos ISBNdb støtter ikke CORS så da er det desverre ikke mulig å hente bildet derifra, men "img" taggen sjekker ikke CORS, så bildet kan vises i modalen.  </li>
+        <li>Library Administration - denne appen er der bibliotekarer kan legge inn nye bøker, redigere eksisterende bøker, eller "slette" bøker med bruk av soft delete. I denne appen er det også mulighet for å administrere alle eksisterende Tags, Genres, og Authors med modalene som ligger under Common Tasks. Her under Common Tasks finner du også "Import from ISBN" som er en modal som lar deg importere en bok fra APIet til ISBNdb ved å taste inn en ISBN. Denne integrasjonen fungerer for metadata som tittel, beskrivelse og forfatter, men ikke for cover bilde. Dette vises i modalen og der er det en hjelpetekst som forteller at bildet må lagres lokalt og lastes opp for å kunne vises. Denne begrensingen kommer pga. at integrasjonen er skrevet i frontend. Siden det er gjort slik så har nettleseren en innebydt sikkerhetsfunksjon som heter CORS(Cross-Origin Resource-Sharing) som sender "dummy" forespørsler av typen OPTIONS før de faktiske forespørselene av type GET. Endepunktet der bildene er lagret hos ISBNdb støtter ikke CORS så da er det desverre ikke mulig å hente bildet derifra, men "img" taggen sjekker ikke CORS, så bildet kan vises i modalen.  </li>
+        <img src="./images/SystemDokumentasjon/search.png" alt="Library Search And Borrow App">
         <li>Library Search And Borrow - denne appen er der brukere går inn for å se bøker, låne, reservere, og se status på bøker. Her er det mulighet for å søke med søkebaren og filtrere sjanger med trakt symbolet vedsiden av.</li>
+        <img src="./images/SystemDokumentasjon/mybooks.png" alt="My Borrowed Books App">
         <li>My Borrowed Books - denne appen er der brukere får opp en tabell over sine utlånte bøker, tidligere utlånte bøker, og reserverte bøker, med mulighet for å utvide lån, levere lån, og kansellere reservasjoner.</li>
         <br/>
         <br/>
