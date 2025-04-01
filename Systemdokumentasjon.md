@@ -1,6 +1,6 @@
 # System Dokumentasjon
 
-Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skolebiblioteksystem. Her dekkes hvilke teknologier som blir brukt, hvordan datamodellen ser ut, hvordan sikkerheten fungerer, hvordan frontenden fungerer, hvilke problemstillinger som ble møtt må, planen videre, og hvilke avvik jeg gjorde fra den originale planen.
+Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skolebiblioteksystem. Her dekkes hvilke teknologier som blir brukt, hvordan datamodellen ser ut, hvordan sikkerheten fungerer, hvordan frontenden fungerer, hvilke problemstillinger som ble møtt på, planen videre, og hvilke avvik jeg gjorde fra den originale planen.
 
 ## Innhold
 - Oppsummering applikasjon
@@ -45,12 +45,12 @@ Dette er systemdokumentasjonen til fagprøve oppgaven min som er å lage et skol
             <li>BooksAuthors - dette er tabellen som linker forfattere til bøker med FK til Books og Authors.</li>
             <li>BooksGenres - dette er tabellen som linker sjangere til bøker med FK til Books og Genres.</li>
             <li>BooksTags - dette er tabellen som linker tags til bøker med FK til Books og Tags.</li>
-            <li>BooksReservations - dette er køtabellen som registrerer reservasjoner på forkjellige bøker og personer med FK til Books og Persons.</li>
-            <li>Authors - dette er tabellen der alle forfatterene er lagret.</li>
-            <li>Genres - dette er tabellen der alle sjangerene er lagret.</li>
+            <li>BooksReservations - dette er køtabellen som registrerer reservasjoner på forskjellige bøker og personer med FK til Books og Persons.</li>
+            <li>Authors - dette er tabellen der alle forfatterne er lagret.</li>
+            <li>Genres - dette er tabellen der alle sjangerne er lagret.</li>
             <li>Tags - dette er tabellen der alle tags er lagret.</li>
             <li>Persons - dette er tabellen der alle brukere i Omega 365 instanset er lagret.</li>
-            <li>OrgUnits - dette er tabellen der alle Orginisasjons enhetene er lagret. Eksempel på dette kan være en lokasjon eller et prosjekt, brukes sentralt i tilgangsstyring.</li>
+            <li>OrgUnits - dette er tabellen der alle Organisasjons enhetene er lagret. Eksempel på dette kan være en lokasjon eller et prosjekt, brukes sentralt i tilgangsstyring.</li>
         </ul>
     </details>
     <details>

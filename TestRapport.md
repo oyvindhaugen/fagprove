@@ -21,8 +21,8 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
     </tr>
     <tr>
         <td>Filtrere på sjanger</td>
-        <td>Filtrere bøker basert på valge sjangere i filter byggeren</td>
-        <td>Filtrerer basert på sjangere valgt i filter byggeren</td>
+        <td>Filtrere bøker basert på valgte sjangrer i filterbyggeren</td>
+        <td>Filtrerer basert på sjangrer valgt i filterbyggeren</td>
         <td><img src="./images/BrukerDokumentasjon/howtofilter.png" alt="Filter bygger for å filtrere bøker"/></td>
         <td></td>
         <td>✅</td>
@@ -147,7 +147,7 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td>Redigere tittel, beskrivelse, publiseringsdato og ISBN</td>
         <td>Tittel, beskrivelse, publiseringsdato og ISBN blir redigert</td>
         <td>Tittel, beskrivelse, publiseringsdato og ISBN ble redigert</td>
-        <td><img src="./images/BrukerDokumentasjon/howtoeditbook.png" alt="Regigerbare felter for tittel, beskrivelse, publiseringsdato og ISBN"/></td>
+        <td><img src="./images/BrukerDokumentasjon/howtoeditbook.png" alt="Redigerbare felter for tittel, beskrivelse, publiseringsdato og ISBN"/></td>
         <td></td>
         <td>✅</td>
     </tr>
@@ -160,7 +160,7 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td>✅</td>
     </tr>
     <tr>
-        <td>Legge til sjangere</td>
+        <td>Legge til sjangrer</td>
         <td>Sjanger blir lagt til</td>
         <td>Sjanger ble lagt til</td>
         <td><img src="./images/BrukerDokumentasjon/howtoeditgenre_2.png" alt="Dialog for å legge til sjanger"/></td>
@@ -184,7 +184,7 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td>✅</td>
     </tr>
     <tr>
-        <td>Legge til bilde med drag and drop</td>
+        <td>Legge til bilde med dra og slipp</td>
         <td>Bilde lastes opp ved å dra en fil over</td>
         <td>Bildet ble lastet opp ved å dra en fil over</td>
         <td><img src="./images/BrukerDokumentasjon/howtoedituploadpic_2.png" alt="Felt for å dra en fil over"/></td>
@@ -212,15 +212,15 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td>Forfattere blir redigert</td>
         <td>Forfattere blir redigert, men sletting kommer an på om forfatteren står knyttet til en bok</td>
         <td><img src="./images/BrukerDokumentasjon/howtomanageauthors_2.png" alt="Modal for å redigere forfattere"/></td>
-        <td>Om sletting skal være absolutt så kan det settes på ON DELETE CASCADE for at dependencies blir slettet</td>
+        <td>Om sletting skal være absolutt så kan ON DELETE CASCADE settes for å fjerne avhengiheter</td>
         <td>✅❌</td>
     </tr>
     <tr>
-        <td>Redigere sjangere</td>
-        <td>Sjangere blir redigert</td>
-        <td>Sjangere blir redigert, men sletting kommer an på om Sjangeren står knyttet til en bok</td>
-        <td><img src="./images/BrukerDokumentasjon/howtomanageauthors_2.png" alt="Modal for å redigere sjangere"/></td>
-        <td>Om sletting skal være absolutt så kan det settes på ON DELETE CASCADE for at dependencies blir slettet</td>
+        <td>Redigere sjangrer</td>
+        <td>Sjangrer blir redigert</td>
+        <td>Sjangrer blir redigert, men sletting kommer an på om sjangern står knyttet til en bok</td>
+        <td><img src="./images/BrukerDokumentasjon/howtomanageauthors_2.png" alt="Modal for å redigere sjangrer"/></td>
+        <td>Om sletting skal være absolutt så kan ON DELETE CASCADE settes for å fjerne avhengiheter</td>
         <td>✅❌</td>
     </tr>
     <tr>
@@ -228,7 +228,7 @@ Utføre grundig test av alle funksjonene i appene og beskrive hvordan de burde o
         <td>tag blir redigert</td>
         <td>tag blir redigert, men sletting kommer an på om taggen står knyttet til en bok</td>
         <td><img src="./images/BrukerDokumentasjon/howtomanageauthors_2.png" alt="Modal for å redigere tags"/></td>
-        <td>Om sletting skal være absolutt så kan det settes på ON DELETE CASCADE for at dependencies blir slettet</td>
+        <td>Om sletting skal være absolutt så kan ON DELETE CASCADE settes for å fjerne avhengiheter</td>
         <td>✅❌</td>
     </tr>
     <tr>
