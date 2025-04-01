@@ -29,5 +29,5 @@ I dag har jeg ferdigstillt appene med litt småforbedringer på designet. Jeg ha
 </details>
 <details open>
 <summary>Tirsdag <sub>01/04</sub></summary>
-tekst
+I dag har jeg skrevet systemdokumentasjon, brukerdokumentasjon, test rapport og laget presentasjon. 
 </details>
