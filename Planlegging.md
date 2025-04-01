@@ -62,7 +62,7 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
 ## Skisse:
 
 ### Data model:
-![Data model](images/Planning/datamodel.png)
+![Data model](images/Planlegging/datamodel.png)
 
 - **Universal Columns**: Standard kolonner som kommer i alle Omega365 CTP tabeller.
 - **Persons**: en system tabell som kommer ferdig definert i et Omega365 instans, har en rad per bruker i systemet og lagrer diverse metadata som navn, epost etc.
@@ -73,7 +73,7 @@ Målet med denne oppgaven er å utvikle et biblioteksystem for en skole der lær
 - **BooksAuthors**: denne tabellen linker sammen Books og Authors slik at en bok kan ha flere forfattere.
 
 ### Grov skisse:
-![Grov skisse](images/Planning/Book%20Rental%20System.png)
+![Grov skisse](images/Planlegging/Book%20Rental%20System.png)
 
 - bildet på bunn venstre er admin skjermbildet for bibliotekarer som lar deg legge til, redigere, og slette bøker.
 - bildet til høyre for admin bildet er bildet som en vanlig bruker vil bruke der de kan søke opp bøker og låne dem. Her vises status på boken.
